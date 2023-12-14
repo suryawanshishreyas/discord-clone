@@ -7,10 +7,7 @@
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -26,9 +23,23 @@ See the live demo [here](insert_live_demo_url_here).
 
 ## Installation
 
+1.npm install -D tailwindcss
+2.npx tailwindcss init
+3.Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/discord-website-clone.git
 
 ```
+
+## technologies-used
+
+1.HTML
+2.CSS
+3.JS
+4.TailwindCSS
